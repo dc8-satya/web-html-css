@@ -2,7 +2,7 @@ h1,
 h2 {
   font-family: Lato;
 }
-
+/* 
 div.sticky {
   position: -webkit-sticky;
   position: sticky;
@@ -10,4 +10,11 @@ div.sticky {
   background-color: yellow;
   padding: 50px;
   font-size: 20px;
+} */
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: yellow;
 }
